@@ -1,0 +1,25 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+$verde-aqua: rgb(82, 236, 159);
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin link-none-black {
+    text-decoration: none;
+    color: black;
+}
+
+@import 'all-header';
+@import 'styles-menu-navegacion/index';
+@import 'styles-menu-navegacion/ofertas';
+@import 'styles-menu-navegacion/reservar';
+@import 'styles-menu-navegacion/servicios';
+@import 'styles-menu-navegacion/unidades';
+@import 'all-footer';
